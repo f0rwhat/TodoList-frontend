@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.TasksFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/project_title_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:text="Project_Title"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/project_description_label"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/project_title_label"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:text="Project_Description"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tasks_recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/add_task_button"
+            android:layout_below="@id/project_description_label"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="11dp" />
+
+        <Button
+            android:id="@+id/add_task_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="11dp"
+            android:layout_above="@id/project_settings_button"
+            android:layout_centerInParent="true"
+            android:text="Add Task"/>
+
+        <Button
+            android:id="@+id/project_settings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="11dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:text="Project settings"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

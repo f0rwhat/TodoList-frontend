@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Kotlin/Native 1.5.31 - stdlib" type="kotlin.native">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-windows-x86_64-1.5.31/klib/common/stdlib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.konan/kotlin-native-prebuilt-windows-x86_64-1.5.31/sources/kotlin-stdlib-native-sources.zip!/" />
+    </SOURCES>
+  </library>
+</component>
