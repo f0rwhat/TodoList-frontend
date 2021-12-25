@@ -9,3 +9,4 @@ pluginManagement {
 rootProject.name = "ToDoList"
 include(":androidApp")
 include(":shared")
+include(":myapplication")

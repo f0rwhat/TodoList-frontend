@@ -33,7 +33,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
             })
@@ -46,7 +50,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
 
@@ -64,7 +72,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
 
@@ -87,7 +99,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
             })
@@ -101,7 +117,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
 
@@ -119,7 +139,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
 
@@ -137,7 +161,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
 
@@ -156,7 +184,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
 
@@ -179,7 +211,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
             })
@@ -197,7 +233,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
             })
@@ -215,7 +255,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
             })
@@ -233,7 +277,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
             })
@@ -251,7 +299,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
             })
@@ -269,7 +321,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
             })
@@ -287,7 +343,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
             })
@@ -301,7 +361,11 @@ object ServerEndpoint {
                         successCallback(response.body()!!)
                     } else {
                         val jObjError = JSONObject(response.errorBody()!!.string())
-                        errorCallback(jObjError["msg"].toString())
+                        if (jObjError.has("msg")) {
+                            errorCallback(jObjError["msg"].toString())
+                        } else {
+                            errorCallback("Unknown server error occurred")
+                        }
                     }
                 }
 
